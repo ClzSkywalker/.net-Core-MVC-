@@ -1,0 +1,9 @@
+﻿@model DemoCoreStudy.Models.Movie
+
+<tr>
+    <th scope="col">@Model.Id</th>
+    <td>@Model.Name</td>
+    <td>@Model.Starring</td>
+    <td>@Model.ReleseDate</td>
+    <td asp-action="Edit" asp-route-movieId="@Model.Id">编辑</td>
+</tr>

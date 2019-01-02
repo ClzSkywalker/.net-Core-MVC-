@@ -1,0 +1,46 @@
+[
+  {
+    "outputFileName": "wwwroot/css/all.min.css",
+    "inputFiles": [
+      "node_modules/bootstrap/dist/css/bootstrap.css",
+      "wwwroot/css/site.css"
+    ]
+  },
+  //上面用于开发
+  //下面用于生产
+  {
+    "outputFileName": "wwwroot/css/bootstrap.css",
+    "inputFiles": [
+      "node_modules/bootstrap/dist/css/bootstrap.css"
+    ],
+    "minify": {
+      "enabled": false //意为没有对它进行压缩
+    }
+  },
+  //js
+  {
+    "outputFileName": "wwwroot/js/all.min.js",
+    "inputFiles": [
+      "node_modules/jquery-slim/dist/jquery.slim.js",
+      "node_modules/popper.js/dist/js/popper.js",
+      "node_modules/bootstrap/dist/js/bootstrap.js",
+      "wwwroot/js/site.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true //true重命名局部变量
+    },
+    "sourceMap": false //一个存储源代码与编译代码对应位置映射的信息文件
+  },
+  {
+    "outputFileName": "wwwroot/js/vendor.js",
+    "inputFiles": [
+      "node_modules/jquery-slim/dist/jquery.slim.js",
+      "node_modules/popper.js/dist/js/popper.js",
+      "node_modules/bootstrap/dist/js/bootstrap.js"
+    ],
+    "minify": {
+      "enabled": false
+    }
+  }
+]

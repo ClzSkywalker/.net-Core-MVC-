@@ -1,0 +1,21 @@
+﻿@model IEnumerable<DemoCoreStudy.Models.Cinema>
+
+<div class="container">
+    <div class="row">
+        <table class="table">
+            <thead class="thead-dark">
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">Location</th>
+                <th scope="col">Capacity</th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            @Html.DisplayForModel()
+            </tbody>
+        </table>
+        <a asp-action="Add">添加</a>
+    </div>
+</div>

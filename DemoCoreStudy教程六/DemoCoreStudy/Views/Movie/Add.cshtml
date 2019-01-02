@@ -1,0 +1,31 @@
+﻿@model DemoCoreStudy.Models.Movie
+
+<div class="container">
+    <form asp-action="Add">
+        <input type="hidden" asp-for="CinemaId" /><!--隐藏返回的Id属性-->
+        <div class="form-group row">
+            <label asp-for="Name" class="col-sm-2 col-form-label">电影名称</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" asp-for="Name" />
+            </div>
+        </div>
+        <div class="form-group row">
+            <label asp-for="Starring" class="col-sm-2 col-form-label">主演</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" asp-for="Starring" />
+            </div>
+        </div>
+        <div class="form-group row">
+            <label asp-for="ReleseDate" class="col-sm-2 col-form-label">上映时间</label>
+            <div class="col-sm-10">
+                <input type="date" class="form-control" asp-for="ReleseDate" />
+            </div>
+        </div>
+        
+        <div class="form-group row">
+            <div class="col-sm-10 offset-sm-2">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </form>
+</div>

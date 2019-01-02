@@ -1,0 +1,13 @@
+﻿@model DemoCoreStudy.Models.Cinema
+<!--功能：显示电影院一行的数据-->
+<tr>
+    <th scope="row">@Model.Id</th>
+    <td>
+        <a asp-controller="Movie" asp-action="Index" asp-route-cinemaId="@Model.Id">@Model.Name</a>
+    </td>
+    <td>@Model.Location</td>
+    <td>@Model.Capacity</td>
+    <td>
+        <a asp-controller="Home" asp-action="Edit" asp-route-cinemaId="@Model.Id">编辑</a>
+    </td>
+</tr>

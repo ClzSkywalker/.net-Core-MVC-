@@ -1,0 +1,8 @@
+D:\atomwork\C# MVC\DemoCoreStudy\DemoCoreStudy.Models\bin\Debug\netcoreapp2.2\DemoCoreStudy.Models.deps.json
+D:\atomwork\C# MVC\DemoCoreStudy\DemoCoreStudy.Models\bin\Debug\netcoreapp2.2\DemoCoreStudy.Models.dll
+D:\atomwork\C# MVC\DemoCoreStudy\DemoCoreStudy.Models\bin\Debug\netcoreapp2.2\DemoCoreStudy.Models.pdb
+D:\atomwork\C# MVC\DemoCoreStudy\DemoCoreStudy.Models\obj\Debug\netcoreapp2.2\DemoCoreStudy.Models.csproj.CoreCompileInputs.cache
+D:\atomwork\C# MVC\DemoCoreStudy\DemoCoreStudy.Models\obj\Debug\netcoreapp2.2\DemoCoreStudy.Models.AssemblyInfoInputs.cache
+D:\atomwork\C# MVC\DemoCoreStudy\DemoCoreStudy.Models\obj\Debug\netcoreapp2.2\DemoCoreStudy.Models.AssemblyInfo.cs
+D:\atomwork\C# MVC\DemoCoreStudy\DemoCoreStudy.Models\obj\Debug\netcoreapp2.2\DemoCoreStudy.Models.dll
+D:\atomwork\C# MVC\DemoCoreStudy\DemoCoreStudy.Models\obj\Debug\netcoreapp2.2\DemoCoreStudy.Models.pdb
